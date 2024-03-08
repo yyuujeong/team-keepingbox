@@ -1,6 +1,6 @@
 # 팀 프로젝트 - 키핑박스
 
-### <https://yyuujeong.github.io/team-project/keepingbox/>
+### <https://yyuujeong.github.io/team-keepingbox/keepingbox/>
 
 ## :hammer_and_pick: 기술
 ```HTML5``` ```CSS3``` ```JS```
