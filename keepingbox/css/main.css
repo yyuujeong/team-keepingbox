@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* 배너 부분 */
+.banner {
+  position: relative;
+  top: 5rem;
+}
+.banner img {
+  width: 100%;
+  filter: brightness(60%);
+}
+.banner ul {
+  position: absolute;
+  top: 8rem;
+  left: 10%;
+}
+.banner ul li {
+  color: #fafafa;
+}
+.banner ul li:first-child {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.banner ul li:nth-child(2) {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+.button {
+  display: inline-block;
+  color: #3781e3;
+  background: #fafafa;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  text-align: center;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+.button:hover {
+  color: #fafafa;
+  background: #3781e3;
+  transition: all 0.5s ease;
+  animation: fade 1s;
+}
+
+main {
+  margin-top: 0;
+  height: auto;
+}
+/* 인포 부분들 */
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+section h3 {
+  font-size: 2rem;
+}
+/* 인포 - 이용안내 부분 */
+#info-use {
+  position: relative;
+  margin: 13rem auto;
+}
+#info-use img {
+  width: 5rem;
+}
+.all-step {
+  display: flex;
+  justify-content: space-around;
+}
+.all-step > li {
+  width: 15rem;
+  margin-top: 2.5rem;
+}
+.steps {
+  text-align: center;
+  margin-top: 3rem;
+}
+.steps li:first-child {
+  margin-bottom: 2rem;
+}
+.steps li:last-child {
+  font-size: 1.2rem;
+}
+i.xi-play {
+  font-size: 3rem;
+  display: flex;
+  color: #afafaf;
+  margin-top: 7rem;
+}
+
+/* 인포 - 규격/요금 부분 */
+.bg-color {
+  width: 100%;
+  height: 100vh;
+  background: #fafafa;
+  margin-bottom: 13rem;
+}
+#info-size h3 {
+  padding-top: 5rem;
+}
+.info-size2 {
+  float: right;
+  margin-top: 2rem;
+}
+.info-size2 li {
+  font-size: 0.85rem;
+}
+.all-size {
+  display: flex;
+  justify-content: space-between;
+}
+.all-size > li {
+  background: #fff;
+  width: 18rem;
+  height: 22rem;
+  border-radius: 10%;
+  margin-top: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.all-size ul {
+  text-align: center;
+}
+
+/* 사이즈: 소 */
+.small-box img {
+  width: 3rem;
+}
+.small-box li:nth-child(1) {
+  margin: 5rem 0 0;
+}
+.small-box li:nth-child(2) {
+  margin: 2.1rem 0 2rem;
+}
+
+/* 사이즈: 중 */
+.middle-box img {
+  width: 4.5rem;
+}
+.middle-box li:nth-child(1) {
+  margin: 4rem 0 0;
+}
+.middle-box li:nth-child(2) {
+  margin: 1.6rem 0 2rem;
+}
+
+/* 사이즈: 대 */
+.big-box img {
+  width: 6rem;
+}
+.big-box li:nth-child(1) {
+  margin: 3rem 0 0;
+}
+.big-box li:nth-child(2) {
+  margin: 1rem 0 2rem;
+}
+.box-font {
+  font-size: 1.2rem;
+}
+.small-box li:nth-child(3),
+.middle-box li:nth-child(3),
+.big-box li:nth-child(3) {
+  margin: 1rem 0 0;
+}
+.small-box li:nth-child(4),
+.middle-box li:nth-child(4),
+.big-box li:nth-child(4) {
+  margin: 0 0 2rem;
+}
+.price {
+  color: #3781e3;
+  font-size: 2rem;
+}
+
+/* 인포 - 지점안내 부분 */
+#info-place h3 {
+  margin-bottom: 2rem;
+}
+#info-place img {
+  width: 90%;
+  height: 50vh;
+}
+.all-place {
+  margin-bottom: 3rem;
+}
+.all-place p {
+  float: left;
+  width: 60%;
+}
+.all-place ul {
+  float: right;
+  width: 40%;
+}
+#info-place ul li:first-child {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #3781e3;
+  margin-bottom: 0.5rem;
+}
+.line {
+  width: 2rem;
+  height: 0.3rem;
+  background: #afafaf;
+  margin-bottom: 0.7rem;
+}
+
+/* 애니메이션 */
+.ani {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.ani-up {
+  transform: translate(0, 3.1rem);
+}
+.ani.show {
+  opacity: 1;
+  transform: none;
+}

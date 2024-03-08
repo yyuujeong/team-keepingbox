@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>후기작성</title>
+    <link rel="stylesheet" href="css/default,header,footer.css">
+    <link rel="stylesheet" href="css/review-write,detail.css">
+<body>
+    <div class="skip">
+		<a href="#container">본문 바로 가기</a>
+	</div>
+    <header data-include-path="header.html"></header>
+    <main id="container">
+        <section class="review-write">
+            <div class="page-title">
+                <div class="container">
+                    <h2>후기작성</h2>
+                </div>
+            </div>
+            <form name="" method="post">
+                <div class="review-space review-write cf">
+                    <input type="text" id="title" placeholder="제목">
+                    <textarea name="reviewContent" id="reviewContent" cols="30" rows="10" placeholder="글을 작성해 주세요."></textarea>
+                    <button type="button" id="cancel-btn">취소</button>
+                    <button type="submit" id="regist-btn">등록하기</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer data-include-path="footer.html"></footer>
+    
+    <script src="js/include.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/review-write.js"></script>
+</body>
+</html>

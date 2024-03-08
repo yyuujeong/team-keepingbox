@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 예약정보</title>
+    <link rel="stylesheet" href="css/default,header,footer.css">
+    <link rel="stylesheet" href="css/mypage-booking-check.css">
+<body>
+    <div class="skip">
+		<a href="#container">본문 바로 가기</a>
+	</div>
+    <header data-include-path="header.html"></header>
+    <main id="container">
+        <div class="booking-box">
+            <h2>나의 예약정보</h2>
+            <div class="cf">
+                <table class="booking-check">
+                    <tr>
+                        <th scope="row">예약자</th>
+                        <td id="book-myname">김땡땡</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">예약날짜</th>
+                        <td id="book-mydate">내용이 들어갑니다.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">지점명</th>
+                        <td id="store">서울 광화문점</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">사이즈</th>
+                        <td id="size">소 ( 20 x 20 x 45(cm) 이내 )</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">이용요금</th>
+                        <td id="cost">5,000원</td>
+                    </tr>
+                </table>
+                <button type="submit" id="cancel-btn">취소하기</button>
+                <button type="submit" id="main-btn">메인으로 돌아가기</button>
+            </div>
+        </div>
+    </main>
+    <footer data-include-path="footer.html"></footer>
+
+    <script src="js/include.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/mypage-booking-check.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* 예약하기 창 */
+.booking-box {
+  margin: 0 auto;
+  width: 20rem;
+  height: 31rem;
+}
+.booking-box label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+#date-group input,
+select {
+  cursor: pointer;
+}
+#date-group input,
+select,
+#book-name,
+#intmoney {
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border: 1px solid #afafaf;
+  padding:0 0.7rem;
+}
+select,
+#book-name,
+#intmoney {
+  width: 20rem;
+}
+#date-group input {
+  width: 9.35rem;
+}
+#start-date,
+#end-date {
+  display: inline-block;
+}
+#end-date {
+  margin-left: 1rem;
+}
+#intmoney {
+  text-align: right;
+}
+#next-btn {
+  width: 100%;
+  height: 3.1rem;
+  background: #3781e3;
+  color: #fafafa;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}

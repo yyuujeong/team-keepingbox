@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* 로그인 창 */
+main {
+  height: auto;
+}
+.login-box {
+  margin: 0 auto;
+  width: 25rem;
+  padding: 5rem 2.5rem;
+  background: #fafafa;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  border-radius: 1rem;
+}
+.user-box {
+  position: relative;
+}
+.user-box input {
+  width: 100%;
+  padding: 0.6rem 0;
+  font-size: 1rem;
+  color: #3d3b3b;
+  margin-bottom: 1.8rem;
+  border: none;
+  border-bottom: 1px solid #afafaf;
+  outline: none;
+  background: transparent;
+}
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.6rem 0;
+  font-size: 1rem;
+  color: #afafaf;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.user-margin {
+  margin-bottom: 0.9rem !important;
+}
+input:focus ~ label,
+input:valid ~ label {
+  top: -1.25rem;
+  left: 0;
+  color: #3781e3;
+  font-size: 0.75rem;
+}
+.save-find {
+  font-size: 0.85rem;
+}
+.find {
+  float: right;
+}
+.find li {
+  display: inline-block;
+  margin-left: 0.7rem;
+}
+button {
+  width: 20rem;
+  height: 2.8rem;
+  margin: 1.5rem 0 0.5rem;
+  background: #3781e3;
+  color: #fafafa;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+}
+.member-join {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}

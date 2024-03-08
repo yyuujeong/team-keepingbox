@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비밀번호 찾기</title>
+    <link rel="stylesheet" href="css/default,header,footer.css">
+    <link rel="stylesheet" href="css/id,pwd-find,withdrawal.css">
+<body>
+    <div class="skip">
+		<a href="#container">본문 바로 가기</a>
+	</div>
+    <header data-include-path="header-before-login.html"></header>
+    <main id="container">
+        <div class="find-box">
+            <h2>비밀번호 찾기</h2>
+            <div>
+                <form id="findForm" method="post">
+                    <input type="hidden" id="id" name="id" value="N">
+                    <div class="form-group">
+                        <input type="text" id="user-id"
+                            name="user-id" placeholder="아이디">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="이름">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="이메일">
+                    </div>
+                    <button type="button" id="pwd-find">비밀번호 찾기</button>
+                    <div>
+                        <ul class="join-login">
+                            <li><a href="join.html" id="go-join">회원가입</a></li>
+                            <li><a href="login.html" id="go-login">로그인</a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer data-include-path="footer.html"></footer>
+    
+    <script src="js/include.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/pwd-find.js"></script>
+</body>
+</html>

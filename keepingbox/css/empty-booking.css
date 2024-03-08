@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* 비어있는 예약확인 창 */
+.empty-booking-box {
+  margin: 0 auto;
+  width: 20rem;
+  height: 31rem;
+}
+.empty-content {
+  color: #afafaf;
+  text-align: center;
+}

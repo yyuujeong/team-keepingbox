@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예약하기</title>
+    <link rel="stylesheet" href="css/default,header,footer.css">
+    <link rel="stylesheet" href="css/booking.css">
+<body>
+    <div class="skip">
+		<a href="#container">본문 바로 가기</a>
+	</div>
+    <header data-include-path="header.html"></header>
+    <main id="container">
+        <div class="booking-box">
+            <h2>예약하기</h2>
+            <div>
+                <form name="booking" method="post" class="booking-form">
+                    <div id="date-group">
+                        <div id="start-date">
+                            <label for="start-day">시작일자</label>
+                            <input type="date" name="start-day" id="start-day" class="start-date check-price">
+                        </div> 
+                        <div id="end-date">
+                            <label for="end-day">종료일자</label>
+                            <input type="date" name="end-day" id="end-day" class="end-date check-price">
+                        </div>
+                    </div>
+                    <label for="book-name">예약자</label>
+                    <input type="text" name="book-name" id="book-name" placeholder="김땡땡" readonly>
+
+                    <label for="stringcity">지점명</label>
+                    <select name="stringcity" id="stringcity">
+                        <option value="" selected>선택하세요</option>
+                        <option value="seoul">서울 광화문점</option>
+                        <option value="bundang">분당 판교점</option>
+                        <option value="bucheon">부천 소사점</option>
+                    </select>
+
+                    <label for="stringsize">사이즈</label>
+                    <select name="stringsize" id="stringsize" class="check-price">
+                        <option value="" selected>선택하세요</option>
+                        <option class="small" value="5000">소 (20 x 20 x 45(cm) 이내)</option>
+                        <option class="middle" value="6000">중 (30 x 30 x 60(cm) 이내)</option>
+                        <option class="big" value="7000">대 (50 x 50 x 80(cm) 이내)</option>
+                    </select>
+
+                    <label for="intmoney">이용요금</label>
+                    <input type="text" name="intmoney" value="0" id="intmoney" readonly>
+
+                    <button type="button" id="next-btn">예약하기</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer data-include-path="footer.html"></footer>
+
+    <script src="js/include.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/booking.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* 공통 부분 */
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.review-space {
+  width: 70%;
+  margin: 0 auto;
+}
+#cancel-btn,
+#regist-btn,
+#List-btn {
+  width: 5rem;
+  height: 2.1rem;
+  border: none;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+/* review-write 후기작성 창 */
+#title {
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  border-bottom: 1px solid #e7e7e7;
+  font-weight: bold;
+  outline: none;
+  margin-bottom: 1rem;
+}
+#reviewContent {
+  resize: none;
+  width: 100%;
+  background: #fafafa;
+  border: none;
+  border-radius: 0.3rem;
+  outline: none;
+  padding: 0.5rem;
+}
+#cancel-btn {
+  background: #fff;
+  color: #3781e3;
+  border: 1px solid #3781e3;
+}
+#regist-btn {
+  float: right;
+  background: #3781e3;
+  color: #fafafa;
+}
+
+/* review-detail 이용후기 부분 */
+.review-title {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.review-writer {
+  font-weight: bold;
+}
+.line {
+  border-bottom: 1px solid #e7e7e7;
+  margin: 1rem 0;
+}
+.title-content textarea {
+  resize: none;
+  width: 100%;
+  background: #fafafa;
+  border: none;
+  border-radius: 0.3rem;
+  outline: none;
+  padding: 0.5rem;
+}
+#List-btn {
+  float: right;
+  background: #3781e3;
+  color: #fafafa;
+}
