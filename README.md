@@ -1,4 +1,4 @@
-# 팀 프로젝트 - 키핑박스
+# 키핑박스
 
 ### <https://yyuujeong.github.io/team-keepingbox/keepingbox/>
 
