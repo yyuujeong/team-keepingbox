@@ -17,8 +17,8 @@ window.addEventListener('scroll', aniFunc);
 const blockReservation = document.querySelectorAll(".block-reservation");
 for(let i=0; i < blockReservation.length; i++) {    
     blockReservation[i].addEventListener("click", function(e) {
-        alert("로그인 후 사용 가능합니다.");
         e.preventDefault();
+        alert("로그인 후 사용 가능합니다.");
     });
 };
 
