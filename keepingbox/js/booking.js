@@ -14,10 +14,8 @@ for(let i=0; i < checkPrice.length; i++) {
   checkPrice[i].addEventListener("click", function() {
     const startDay = document.getElementById("start-day").value;
     const endDay = document.getElementById("end-day").value;
-    const ar1 = startDay.split("-");
-    const ar2 = endDay.split("-");
-    const da1 = new Date(ar1[0], ar1[1], ar1[2]);
-    const da2 = new Date(ar2[0], ar2[1], ar2[2]);
+    const da1 = new Date(startDay);
+    const da2 = new Date(endDay);
     const dateDiff = Math.abs((da2 - da1) / (24 * 60 * 60 * 1000));
 
     // 하루 이상 요금
