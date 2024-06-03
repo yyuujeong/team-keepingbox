@@ -11,5 +11,5 @@ cancelBtn.addEventListener("click", () => {
     }
 });
 mainBtn.addEventListener("click", () => {
-    location.href = "main-after-login.html";
+    location.href = "index.html";
 });
